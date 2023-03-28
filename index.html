@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mister Balls</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="onHandleKey(event)" onload="onInitGame()">
+    <h1>Collect those Balls</h1>
+
+    <div class="victory-container hide">
+        <h1>You Won!</h1>
+        <button class="restart-btn" onclick="onRestartGame()">Click to Restart</button>
+    </div>
+    <h3>SCORE
+<h3><div class="neighbour">Number of neighbors is:<span>0</span></div>
+
+
+
+
+
+
+
+</h3>
+        <span class="score"></span>
+    </h3>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/util.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
